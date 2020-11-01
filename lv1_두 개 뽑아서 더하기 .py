@@ -1,15 +1,19 @@
-numbers = [2, 1, 3, 4, 1]
-num = 0
-k = []
+def solution(numbers):
+    answer = []
 
-for i in range(len(numbers)):
-    for j in range(i+1, len(numbers)):
-        k.append(numbers[i] + numbers[j])
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            answer.append(numbers[i] + numbers[j])
 
-k = set(k)
-k = list(k)
+    answer = set(answer)
+    answer = list(answer)
+
+    answer.sort()
+
+    return answer
 
 
-k.sort()
-print(k)
 
+#from itertools import combinations
+#def solution(numbers):
+    #return sorted(list(set([sum(i, j]) for i , j in combinations(numbers, 2)])))
