@@ -23,6 +23,7 @@ def solution(s):
     
     kk = []
     
+    
     for word in k:
         new_word = ""
         for i in range(len(word)):
