@@ -1,6 +1,6 @@
 def solution(tickets):
     tickets.sort(reverse=True)
-    routes = dict()
+    routes = {}
 
     for t1, t2 in tickets:
         if t1 in routes:
