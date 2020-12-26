@@ -24,5 +24,3 @@ def solution(begin, target, words):
             return answer
         else:
             k = temp
-
-
