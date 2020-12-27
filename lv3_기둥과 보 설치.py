@@ -1,7 +1,7 @@
 def check(answer):
     for x, y, cate in answer:
         if cate == 0:   #기둥
-            if y==0 or [x-1, y, 1] in answer or [x, y, 1] in answer or [x, y-1, 0] in answer:
+            if y == 0 or [x-1, y, 1] in answer or [x, y, 1] in answer or [x, y-1, 0] in answer:
                 continue
             else:
                 return False
