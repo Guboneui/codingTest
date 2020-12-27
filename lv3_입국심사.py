@@ -15,3 +15,4 @@ def solution(n, times):
             start = middle + 1
 
     return answer
+
