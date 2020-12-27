@@ -15,4 +15,5 @@ def solution(n, s):
         k[i] = math.floor(k[i])
 
     k.sort()
+
     return k
