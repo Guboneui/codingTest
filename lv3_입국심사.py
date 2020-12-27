@@ -13,6 +13,5 @@ def solution(n, times):
                 end = middle - 1
         if k > 0:
             start = middle + 1
-
     return answer
 
